@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325604034312",
+    "project_id": "dbwisata-69d64",
+    "storage_bucket": "dbwisata-69d64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325604034312:android:7c27e7ac83a4da52320ebd",
+        "android_client_info": {
+          "package_name": "com.rezzarn.tempatwisata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325604034312-n5g2ilq85d13gdnk5rogge2f2ktbtni5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrLi39KdTN0C7lT3Wbh_AnmyUpJr8OnoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325604034312-n5g2ilq85d13gdnk5rogge2f2ktbtni5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

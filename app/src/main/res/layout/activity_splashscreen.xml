@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashscreenActivity"
+    android:orientation="vertical"
+    android:id="@+id/splash_screen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="152dp"
+        android:layout_height="81dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/beach_chair" />
+
+    <TextView
+        android:id="@+id/namaLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wisataqita"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/logo"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#A8A8A8"
+        android:textSize="35dp"
+        />
+
+    <TextView
+        android:id="@+id/versi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namaLogo"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center|bottom"
+        android:text="by kelompok Andorid IF-7" />
+
+</RelativeLayout>
